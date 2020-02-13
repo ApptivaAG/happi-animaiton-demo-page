@@ -1,5 +1,5 @@
-import { dimensions, fonts, colors, breakpoints } from "./variables"
-import { rem } from "./mixins"
+import { dimensions, fonts, colors, breakpoints } from './variables'
+import { rem } from './mixins'
 
 export default `
   @import url('https://fonts.googleapis.com/css?family=Muli|Raleway:400,700')
@@ -33,24 +33,6 @@ export default `
     overflow-y: scroll;
     font-family: ${fonts.sans_serif};
     color: ${colors.black};
-    background-color: ${colors.gradientStart};
-    background: ${colors.gradientStart}; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, ${colors.gradientStart} 0%, ${
-	colors.gradientEnd
-} 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, ${colors.gradientStart} 0%,${
-	colors.gradientEnd
-} 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, ${colors.gradientStart} 0%,${
-	colors.gradientEnd
-} 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='${
-		colors.gradientStart
-	}', endColorstr='${
-	colors.gradientEnd
-}',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
   }
 
   #___gatsby {
@@ -75,6 +57,7 @@ export default `
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1.414rem;
     margin-bottom: .5rem;
+    padding-bottom: 1rem;
     color: ${colors.black};
     font-weight: 500;
     line-height: ${dimensions.line_height.heading};
@@ -111,6 +94,7 @@ export default `
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: ${dimensions.font_sizes.p}rem;
+    line-height: 2rem;
   }
 
   strong {

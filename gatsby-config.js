@@ -2,7 +2,7 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Luke`,
+    title: `Happi - Microwave Solutions`,
     siteUrl: `https://gatsby-starter-luke.netlify.com`,
     description: `An opinionated GatsbyJS starter using TypeScript and React String.`,
   },
@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `luke-gatsby-starter`,
-        short_name: `starter-luke`,
+        name: `Happi - Microwave Solutions`,
+        short_name: `Happi`,
         start_url: `/`,
         background_color: `#dfdfdf`,
         theme_color: `#BD003D`,

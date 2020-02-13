@@ -19,9 +19,9 @@
     "url": "https://github.com/lukethacoder/luke-gatsby-starter"
   },
   "scripts": {
-    "dev": "gatsby develop",
+    "serve": "gatsby serve --port ${PORT:-3000}",
     "build": "gatsby build",
-    "start": "gatsby serve --port ${PORT:-3000}",
+    "start": "gatsby develop",
     "clean": "rimraf .cache public",
     "lint": "prettier --write && stylelint --fix"
   },

@@ -29,7 +29,7 @@ export interface IHelmet {
 export const base_helmet: IHelmet = {
 	title,
 	description,
-	titleTemplate: "luke-starter-gatsby",
+	titleTemplate: "Microwave Solutions",
 	htmlAttributes: { lang: "en" },
 	meta: [
 		{ name: "description", content: description },
