@@ -16,7 +16,7 @@ export const AppLayout: FunctionComponent = ({ data, children }) => (
       query {
         file(relativePath: { eq: "header-background.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 2000, quality: 100) {
+            fluid(maxWidth: 2000, quality: 70) {
               ...GatsbyImageSharpFluid
             }
           }

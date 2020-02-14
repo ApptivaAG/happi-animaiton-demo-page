@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 import styled from '@emotion/styled'
-import { widths, colors } from '../../styles/variables'
+import { widths } from '../../styles/variables'
 import { SpringFadeUp } from '../../utils/animations'
 
 export const Banner: FunctionComponent = ({ children }) => (
