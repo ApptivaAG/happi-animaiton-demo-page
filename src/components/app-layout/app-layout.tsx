@@ -10,7 +10,7 @@ import './style'
 
 const isDev = process.env.NODE_ENV === 'development'
 
-export const AppLayout: FunctionComponent = ({ data, children }) => (
+export const AppLayout: FunctionComponent = ({ children }) => (
   <StaticQuery
     query={graphql`
       query {

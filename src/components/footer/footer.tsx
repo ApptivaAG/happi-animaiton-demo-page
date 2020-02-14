@@ -34,7 +34,7 @@ export const Footer = ({ logo, social }: IFooterProps) => (
           </address>
           <span>
             Tel +41 61 641 4873<br></br>
-            contact@microwavesolutions.ch
+            contact@happi.ch
           </span>
           <ul>
             {social.map((item, index) => (
