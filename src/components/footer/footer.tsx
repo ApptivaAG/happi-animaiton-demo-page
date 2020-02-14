@@ -37,8 +37,8 @@ export const Footer = ({ logo, social }: IFooterProps) => (
             contact@microwavesolutions.ch
           </span>
           <ul>
-            {social.map((item) => (
-              <li key={item.to}>
+            {social.map((item, index) => (
+              <li key={index}>
                 <a href={item.to} target='_blank' rel='noopener noreferrer'>
                   {item.icon}
                 </a>
