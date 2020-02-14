@@ -11,7 +11,6 @@ import {
   SpringFadeLeft,
 } from '../utils/animations'
 import { Seperator } from '../components/seperator'
-import { Button } from '../components/button'
 import positive from '../assets/images/positive.jpg'
 import yoga from '../assets/images/yoga.jpg'
 
@@ -19,9 +18,9 @@ export default () => (
   <>
     <Canberra title='Happi' />
     <Banner>
-      <h2 style={{ textAlign: 'center', color: 'white' }}>
+      <h1 style={{ textAlign: 'center', color: 'white' }}>
         Happiness is closer than you think
-      </h2>
+      </h1>
     </Banner>
 
     <Container>
@@ -59,15 +58,15 @@ export default () => (
       <Seperator>
         <Content>
           <SpringFadeRight>
-            <h2
+            <h1
               style={{
                 textAlign: 'center',
-                verticalAlign: 'middle',
+                paddingTop: 100,
                 color: 'white',
               }}
             >
               Mindfulness, Stress reduction, Creativity and Innovation 
-            </h2>
+            </h1>
           </SpringFadeRight>
         </Content>
       </Seperator>

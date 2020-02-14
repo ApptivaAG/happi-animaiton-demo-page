@@ -8,6 +8,6 @@ export const Seperator: FunctionComponent = ({ children }) => (
 
 const StyledSeperator = styled.section`
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   background: url(${background}) no-repeat center center;
 `
