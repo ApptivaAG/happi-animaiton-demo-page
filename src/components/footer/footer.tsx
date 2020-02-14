@@ -28,16 +28,14 @@ export const Footer = ({ logo, social }: IFooterProps) => (
           >
             {logo}
           </a>
-          {/* <address>
+          <address>
             Loerracherstrasse 50<br></br>
-            4125 Riehen<br></br>
-            Switzerland <br></br>
+            4125 Riehen, Switzerland
           </address>
           <span>
             Tel +41 61 641 4873<br></br>
-            Fax +41 61 641 4875<br></br>
             contact@microwavesolutions.ch
-          </span> */}
+          </span>
           <ul>
             {social.map((item) => (
               <li key={item.to}>

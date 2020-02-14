@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
   position: relative;
   width: 100%;
   padding: 24px 0;
-  background-color: white;
+
   margin-top: 10vh;
   .footer__wrapper {
     max-width: ${widths.lg}px;
@@ -15,9 +15,10 @@ export const StyledFooter = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    line-height: 1.5rem;
     .footer__logo {
-      max-width: 48px;
-      max-height: 16px;
+      max-width: 68px;
+      max-height: 38px;
       height: 100%;
       width: 100%;
     }
