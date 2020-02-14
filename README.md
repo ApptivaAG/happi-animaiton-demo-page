@@ -97,6 +97,3 @@ Dev mode is enabled by clicking `ctrl + ,`;
 
 > make sure you have an `.env` file with `NODE_ENV` set to `development`
 
-### TODO
-
--   example of pulling data from various data sources
